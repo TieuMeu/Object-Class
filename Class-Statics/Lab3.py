@@ -10,6 +10,5 @@ class Config:
     def show_config():
         print(f"Tên ứng dụng: {Config.APP_NAME}, Phiên bản: {Config.VERSION}")
 
-# Kiểm tra
-if __name__ == "__main__":
-    Config.show_config()
+
+Config.show_config()

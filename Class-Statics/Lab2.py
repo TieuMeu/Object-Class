@@ -26,8 +26,6 @@ class MathUtil:
             a, b = b, a % b
         return a
 
-
-if __name__ == "__main__":
-    print("Kiểm tra số nguyên tố:", MathUtil.isPrime(7))
-    print("Kiểm tra giai thừa :", MathUtil.factorial(5))
-    print("Ước chung lớn nhất :", MathUtil.gcd(24, 18))
+print("Kiểm tra số nguyên tố:", MathUtil.isPrime(7))
+print("Kiểm tra giai thừa :", MathUtil.factorial(5))
+print("Ước chung lớn nhất :", MathUtil.gcd(24, 18))

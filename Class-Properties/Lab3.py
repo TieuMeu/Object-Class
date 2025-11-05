@@ -19,6 +19,6 @@ books_list = [
 
 locsach = [book for book in books_list if book.yearPublished > 2020]
 
-print("📚 Danh sách sách xuất bản sau năm 2020:")
+print("Danh sách sách xuất bản sau năm 2020:")
 for book in locsach:
     print(f"- {book.title} | Tác giả: {book.author} | Năm: {book.yearPublished} | Giá: ${book.price}")
